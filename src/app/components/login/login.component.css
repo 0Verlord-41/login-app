@@ -1,6 +1,25 @@
-.example-container .mat-form-field + .mat-form-field {
+h1 {
+  text-align: center;
+}
+
+.example-container form {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.example-container form button{
+  height: 40px;
+  font-size: large;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+/* .example-container .mat-form-field + .mat-form-field {
     margin-left: 8px;
-  }
+  } */
   
   .example-right-align {
     text-align: right;
